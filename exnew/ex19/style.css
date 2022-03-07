@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+em HTML id = em CSS é # (here you can use it only one time per document/element)
+em HTML class = em CSS é . (here you can use it over and over)
+*/
+body {
+    background-color: rgb(205, 255, 203);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+h2 {
+    color: rgb(51, 77, 49);
+}
+
+h1#main {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.basic {
+    color: #3c805e;
+
+}
+
+.intermediate {
+    color: #80793c;
+}
+
+.advanced {
+    color: #803c3c;
+}
+
+.featured {
+    background-color: #b12eee70;
+}

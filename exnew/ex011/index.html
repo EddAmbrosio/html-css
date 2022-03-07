@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamic Images</title>
+</head>
+<body>
+    <p>Try to open this site in various devices or even simply increase or decrease the device screen</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/small1.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/avarage2.png" type="image/png">
+        <img src="img/big3.png" alt="Big image example" title="big image">
+        <h1>Replay Audio</h1>
+        <p>Let's learn how to replay audio on your <abbr title="HiperText Markup Language">HTML</abbr> sites.</p>
+        <p>The simplest way to do it is by using &lt;audio&gt; tag.</p>
+        <audio preload="auto" autoplay controls>
+            <source src="media/guanacast-33.mp3" type="audio/mpeg">
+            <source src="media/the-empty-moons-of-jupiter - divkid.ogg" type="audio/ogg">
+            <source src="media/guanacast-33.wav" type="audio/wav">
+            <p>Unfortunately, your browser cannot replay the audio. <a href="media/the-empty-moons-of-jupiter - divkid.mp3" download="the-empty-moons-of-jupiter" type="audio/mpeg">Click Here</a> to download the audio.</p>
+        </audio>
+    </picture>
+</body>
+</html>

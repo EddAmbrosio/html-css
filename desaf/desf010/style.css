@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf);
+}
+body {
+    background-color: #b5eb9c;
+}
+
+main {
+    background-color: white;
+    width: 650px;
+    margin-top: 0px;
+    margin: auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.267);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgreen;
+}
+p {
+    text-align: justify;
+    text-indent: 15px;
+    padding: 15px;
+    margin: 0px;
+}
+
+.titlesec {
+    background-image: linear-gradient(to right, #84E1AD, white);
+    color: rgb(7, 100, 7);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    font-family: "idroid", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-indent: 15px;
+    font-family: idroid;
+    font-size: 1.5em;
+}
+
+#vid{
+    border-top: 20px;
+    border-left: 40px;
+    border-bottom: 20px;
+    border-right: 40px;
+    border-style: solid; 
+    border-color: #1A5C38;
+}
+
+#woman {
+    width: 600px;
+    margin-left: 25px;
+}
+
+#robots {
+    width: 600px;
+    margin-left: 25px;
+}
+/*We could put both robots and woman as a class instead id, but in order to have more organization i've decided to use the id. */
+
+#mascot {
+    margin-left: 150px;
+}
+
+span {
+    background-color: #8FE3B4;
+    border-radius: 5px;
+    color: #538569;
+    font-weight: bold;
+}
+
+span:hover {
+    text-decoration: underline;
+}
+
+.nolink {
+    background-color: rgba(255, 255, 255, 0);
+    color: #538569;
+    font-weight: bold;
+}
+
+.nolink:hover {
+    text-decoration: none;
+}
+
+#finalsec {
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    padding-top: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#finalart {
+    background-color: #C5EBD6;
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    
+}
+
+#finalheading {
+    color: white;
+    background-color: #2FA866;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-indent: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.parag {
+    margin-top: 0px;
+    padding: 5px;
+}
+
+header {
+    background-image: linear-gradient(0deg, #195C37, #2EA663);
+    padding-bottom: 10px;
+}
+
+#titlemain {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;;
+    color: white;
+    text-align: center;
+    box-shadow: indent 1px 1px 4px black;
+}
+body {
+    margin: 0px;
+
+}
+nav {
+    background-image: linear-gradient(10deg, #1A6039, #227D4A);
+    padding-top: 5px;
+}
+
+#mainpara {
+    text-align: center;
+    color: white;
+}
+
+#titleone {
+    margin-top: 0px;
+}
+
+nav > a { 
+    color: white;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+nav > a:visited {
+    color: white;
+}
+
+footer > p {
+    text-align: center;
+    background-color: #1A6039;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+footer {
+    margin: 0px
+}
+
+pre {
+    display: inline;
+    font-size: 1.1em;
+    margin: 0px;  
+}
+
+nav > a:hover {
+    background-color: #2d8a55 ;
+    border-radius: 3px;
+}
+
+ul {
+    display: inline;
+
+}
+
+ul > li {
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 300px;
+}

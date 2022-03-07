@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body { 
+            font-family:'Courier New', Courier, monospace, sans-serif;
+            background-color:#723D46;
+            margin: 0px;
+        }
+        
+        header {
+            background-color: #FFE1A8;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: #FFE1A8;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.219);
+        }
+
+        nav{
+            background-color: #C9CBA3;
+            padding: 5px;
+            font-size: 1.2em;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.322);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+            margin-right: 30px;
+            
+            
+        }
+        article {
+            background-color: #C9CBA3 ;
+        }
+        article > aside {
+            background-color: #cba3b2;
+        }
+
+        footer {
+            background-color: #472D30;
+            color:rgb(255, 0, 0);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        
+        footer > p {
+            margin: 0px;
+        }
+
+        div#boll {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            margin-left: 350px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Subject">
+            <p>Sports, Politc and Technologies</p>
+        </section>
+        <section id="news">
+            <article>
+                <h2>News about Brazil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel assumenda recusandae soluta ducimus, accusantium consequatur eveniet culpa tempore fugiat blanditiis quod consequuntur tempora quibusdam illum dolorem exercitationem repellendus! Velit, laudantium.</p>
+                <aside>
+                    <p>Article wrriten by Ed-San</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer><p>Developed by Ed-San</p></footer>
+    <div id="boll"></div>
+</body>
+</html>
