@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Gideon+Roman&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Gideon+Roman&family=Merriweather:ital,wght@0,900;1,400;1,700&family=Permanent+Marker&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Allura', cursive; /*text content*/
+    --font3: 'Merriweather', serif; /*title*/
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -6,17 +15,21 @@
 html, body {
     min-width: 100vh; /* if we were speaking of wide, we could use the vw (w = width; h = height)*/
     background-color: darkgray;
+    font-family: var(--font1);
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font3);
+    font-size: 5vw;
 }
 
 header > p {
@@ -38,6 +51,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font2);
+    font-size: 3.5vw;
 }
 section.regular {
     background-color: white;
@@ -49,9 +64,10 @@ section.image {
     color: white;    
 }
 
-section > p {
-    width: 400px;
+section.image > p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.233);
+    padding-left: 15px;
 }
 footer {
     background-color: black;
