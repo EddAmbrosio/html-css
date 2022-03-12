@@ -13,6 +13,7 @@
         table {
             border: 1px solid black;
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
             background-color:bisque;
         }
@@ -28,6 +29,12 @@
         tr > td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center;
+            vertical-align: bottom;
+        }
+
+        .number {
+            text-align: right;
         }
     </style>
 </head>
@@ -46,13 +53,13 @@
         </tr>
         <tr> <!--Second Row-->
             <td>A2</td>
-            <td>B2</td>
+            <td class="number">B2</td>
             <td>C2</td>
         </tr>
         <tr> <!--Third Row-->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="number">C3</td>
         </tr>
         <tr> <!--Fourth Row-->
             <td>A4</td>
