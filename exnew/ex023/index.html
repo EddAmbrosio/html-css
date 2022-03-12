@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        table {
+            border: 1px solid black;
+            width: 400px;
+            border-collapse: collapse;
+            background-color:bisque;
+        }
+            
+        th {
+            background-color: beige;
+        }
+    
+        .noborder {
+            background-color: beige;
+            border: none;
+        }
+        tr > td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Table</h1>
+    <table>
+        <tr> <!--Header-->
+            <th>My First Table</th>
+            <td class="noborder"></td>
+            <td class="noborder"></td>
+        </tr>
+        <tr> <!-- First Row-->
+            <td>A1</td>
+            <td>B2</td>
+            <td>C1</td>
+        </tr>
+        <tr> <!--Second Row-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr> <!--Third Row-->
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr> <!--Fourth Row-->
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
