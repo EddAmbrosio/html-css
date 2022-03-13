@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Challenge</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td.name {
+            width: 205px;
+        }
+    </style>
+</head>
+<body>
+    <table> <!-- We have a table with the format 5x7-->
+        <tr>
+            <td><strong>Group</strong></td>
+            <td><strong>Names</strong></td>
+            <td colspan="3"><strong>Movies</strong></td>
+        </tr>
+        <tr>
+            <td rowspan="3"><strong>Women</strong></td>
+            <td class="name">Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Avengers</td>
+        </tr>
+        <tr>
+            <td class="name">Beatriz Souza Mello</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+        </tr>
+        <tr>
+            <td class="name">Claudia Santos de Albuquerque</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><strong>Men</strong></td>
+            <td class="name">Bruno Mendonça Oliveira</td>
+            <td>Intouchables</td>
+            <td>Amnesia</td>
+            <td>Gladiator</td>
+        </tr>
+        <tr>
+            <td class="name">Daniel Laurenço Motta</td>
+            <td>Wall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+        </tr>
+        <tr>
+            <td class="name">Fabiano Rosa Belo</td>
+            <td>Star Wars 5</td>
+            <td>Taxi Driver</td>
+            <td>Toy Story</td>
+
+        </tr>
+    </table>
+</body>
+</html>
