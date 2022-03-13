@@ -13,6 +13,7 @@
         table {
             width: 450px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -25,6 +26,12 @@
             background-color: rgb(58, 58, 51);
             color: rgb(241, 241, 241);
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(58, 58, 51);
+        }
         h1 {
             text-align: center;
         }
@@ -33,6 +40,14 @@
             font-weight: bolder;
             padding: 6px;
             background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) /*accept the values: odd; even; x(x=number)n; 2n-1.*/{
+            background-color: rgb(150, 67, 218); 
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: rgb(32, 216, 170);
         }
     </style>
 </head>
