@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --cor1: rgb(53, 190, 172);
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            width: 60px;
+            padding: 5px;
+        }
+
+        thead {
+            background-color: var(--cor1);
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        #wide {
+            width: 113px;
+        }
+
+        td.cent, tr.bottomtitle {
+            text-align: center;
+        }
+
+        tr.bottomtitle {
+            background-color: var(--cor1);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2" id="wide">Area</th>
+                <th scope="col" rowspan="2">Subjects</th>
+                <th scope="colgroup" colspan="2">Grade</th>
+                <th scope="col" rowspan="2">Averade</th>
+            </tr>
+            <tr>
+                <th scope="col">Grade 1</th>
+                <th scope="col">Grade 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Exact Science</th>
+                <td scope="row">Math</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+            </tr>
+            <tr>
+                <td scope="row">Physical</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+            </tr>
+            <tr>
+                <td scope="row">Chemistry</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+            </tr>
+            <tr>
+                <td scope="row">Biology</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+            </tr>
+            <tr class="bottomtitle">
+                <th colspan="4">Exact Science Average</th>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Humans Science</th>
+                <td scope="row">History</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+            </tr>
+            <tr>
+                <td scope="row">Geography</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+                <td class="cent">0.0</td>
+            </tr>
+            <tr class="bottomtitle">
+                <th colspan="4">Humans Average</th>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
