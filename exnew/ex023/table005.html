@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0.589);
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+        
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            width: 100px;
+        }
+
+        caption {
+            padding-bottom: 10px;
+        }
+
+        .color1 {
+            background-color:aquamarine
+        }
+
+        .color2 {
+            background-color: cadetblue;
+        }
+
+        .color3 {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="color1" span="2">
+            <col class="color2">
+            <col class="color3">
+        </colgroup>
+        <caption>Table of Workers in the Company</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Sex</th>
+                <th>Age</th>
+                <th>Ocupation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>Female</td>
+                <td>25</td>
+                <td>Journalist</td>
+            </tr>
+            <tr>
+                <td>Claudio</td>
+                <td>Male</td>
+                <td>26</td>
+                <td>Programmer</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>Male</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Helio</td>
+                <td>Male</td>
+                <td>19</td>
+                <td>Salesperson</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Female</td>
+                <td>39</td>
+                <td>Doctor</td>
+            </tr>
+            <tr>
+                <td>Otavio</td>
+                <td>Male</td>
+                <td>22</td>
+                <td>Nutritionist</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
