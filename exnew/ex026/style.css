@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+p {
+    font-stretch: expanded;
+    width: 850px;
+    text-indent: 25px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
